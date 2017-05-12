@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QXAudioPlayer_Example' do
+  pod 'QXAudioPlayer', :path => '../'
+
+  target 'QXAudioPlayer_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
