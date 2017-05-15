@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29FAE2361EC5C063001E8827 /* QXAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FAE2351EC5C063001E8827 /* QXAudioPlayer.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		1E1C7E494B650F0A3F2CA5AE /* Pods-QXAudioPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXAudioPlayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXAudioPlayer_Example/Pods-QXAudioPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		29FAE2341EC5C063001E8827 /* QXAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXAudioPlayer.h; sourceTree = "<group>"; };
+		29FAE2351EC5C063001E8827 /* QXAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXAudioPlayer.m; sourceTree = "<group>"; };
 		2D42AD7683B3538B817D6B75 /* Pods_QXAudioPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXAudioPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		592A2ECF8371C404A27041F9 /* Pods_QXAudioPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXAudioPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D429B2F071B19CEE510DFA6 /* Pods-QXAudioPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXAudioPlayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXAudioPlayer_Tests/Pods-QXAudioPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,11 +64,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		76A17FAB31D8215B6DC0A2DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		76A17FAB31D8215B6DC0A2DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7E42A47CEC6F18533014E90C /* Pods-QXAudioPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXAudioPlayer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXAudioPlayer_Example/Pods-QXAudioPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		95AA58CC5DF86BAE3672AC1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A3AFABA3E3E46DDACC135DA0 /* QXAudioPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QXAudioPlayer.podspec; path = ../QXAudioPlayer.podspec; sourceTree = "<group>"; };
+		95AA58CC5DF86BAE3672AC1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A3AFABA3E3E46DDACC135DA0 /* QXAudioPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QXAudioPlayer.podspec; path = ../QXAudioPlayer.podspec; sourceTree = "<group>"; };
 		C6F44579CD25E23EE4764753 /* Pods-QXAudioPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXAudioPlayer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXAudioPlayer_Tests/Pods-QXAudioPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29FAE2331EC5C051001E8827 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29FAE2341EC5C063001E8827 /* QXAudioPlayer.h */,
+				29FAE2351EC5C063001E8827 /* QXAudioPlayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		5FAA10D5C9A102144E8880C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +155,7 @@
 		6003F593195388D20070C39A /* Example for QXAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				29FAE2331EC5C051001E8827 /* Classes */,
 				6003F59C195388D20070C39A /* QXAppDelegate.h */,
 				6003F59D195388D20070C39A /* QXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -396,6 +409,7 @@
 			files = (
 				6003F59E195388D20070C39A /* QXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* QXViewController.m in Sources */,
+				29FAE2361EC5C063001E8827 /* QXAudioPlayer.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

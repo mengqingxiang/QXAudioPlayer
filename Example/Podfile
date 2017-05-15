@@ -5,7 +5,5 @@ target 'QXAudioPlayer_Example' do
 
   target 'QXAudioPlayer_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
   end
 end

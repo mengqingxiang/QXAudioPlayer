@@ -1,0 +1,16 @@
+PODS:
+  - QXAudioPlayer (0.1.0)
+
+DEPENDENCIES:
+  - QXAudioPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  QXAudioPlayer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QXAudioPlayer: 52a2e7c95033cd6fa4a292ff4fa325604c5d6c15
+
+PODFILE CHECKSUM: a26176730e4c836d42a61f1b4c22819c37ce3157
+
+COCOAPODS: 1.1.1

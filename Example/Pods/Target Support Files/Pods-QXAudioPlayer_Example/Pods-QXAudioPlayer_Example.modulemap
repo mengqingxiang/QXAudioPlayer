@@ -1,0 +1,6 @@
+framework module Pods_QXAudioPlayer_Example {
+  umbrella header "Pods-QXAudioPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
