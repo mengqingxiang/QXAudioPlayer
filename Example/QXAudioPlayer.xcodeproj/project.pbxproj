@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29DC52451EC9770F0075327F /* QXAudioPlayerLoadDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC52441EC9770F0075327F /* QXAudioPlayerLoadDelegate.m */; };
-		29DC52481EC997CB0075327F /* QXAudioPlayDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC52471EC997CB0075327F /* QXAudioPlayDownLoader.m */; };
-		29DC524B1EC997DB0075327F /* QXAudioCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC524A1EC997DB0075327F /* QXAudioCache.m */; };
-		29DC524E1EC9C22A0075327F /* NSURL+QXURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DC524D1EC9C22A0075327F /* NSURL+QXURL.m */; };
-		29FAE2361EC5C063001E8827 /* QXAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FAE2351EC5C063001E8827 /* QXAudioPlayer.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -43,16 +38,6 @@
 
 /* Begin PBXFileReference section */
 		1E1C7E494B650F0A3F2CA5AE /* Pods-QXAudioPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXAudioPlayer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXAudioPlayer_Example/Pods-QXAudioPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		29DC52431EC9770F0075327F /* QXAudioPlayerLoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXAudioPlayerLoadDelegate.h; sourceTree = "<group>"; };
-		29DC52441EC9770F0075327F /* QXAudioPlayerLoadDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXAudioPlayerLoadDelegate.m; sourceTree = "<group>"; };
-		29DC52461EC997CB0075327F /* QXAudioPlayDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXAudioPlayDownLoader.h; sourceTree = "<group>"; };
-		29DC52471EC997CB0075327F /* QXAudioPlayDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXAudioPlayDownLoader.m; sourceTree = "<group>"; };
-		29DC52491EC997DB0075327F /* QXAudioCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXAudioCache.h; sourceTree = "<group>"; };
-		29DC524A1EC997DB0075327F /* QXAudioCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXAudioCache.m; sourceTree = "<group>"; };
-		29DC524C1EC9C22A0075327F /* NSURL+QXURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QXURL.h"; sourceTree = "<group>"; };
-		29DC524D1EC9C22A0075327F /* NSURL+QXURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QXURL.m"; sourceTree = "<group>"; };
-		29FAE2341EC5C063001E8827 /* QXAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXAudioPlayer.h; sourceTree = "<group>"; };
-		29FAE2351EC5C063001E8827 /* QXAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXAudioPlayer.m; sourceTree = "<group>"; };
 		2D42AD7683B3538B817D6B75 /* Pods_QXAudioPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXAudioPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		592A2ECF8371C404A27041F9 /* Pods_QXAudioPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXAudioPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D429B2F071B19CEE510DFA6 /* Pods-QXAudioPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXAudioPlayer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXAudioPlayer_Tests/Pods-QXAudioPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,23 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29FAE2331EC5C051001E8827 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				29FAE2341EC5C063001E8827 /* QXAudioPlayer.h */,
-				29FAE2351EC5C063001E8827 /* QXAudioPlayer.m */,
-				29DC52431EC9770F0075327F /* QXAudioPlayerLoadDelegate.h */,
-				29DC52441EC9770F0075327F /* QXAudioPlayerLoadDelegate.m */,
-				29DC52461EC997CB0075327F /* QXAudioPlayDownLoader.h */,
-				29DC52471EC997CB0075327F /* QXAudioPlayDownLoader.m */,
-				29DC52491EC997DB0075327F /* QXAudioCache.h */,
-				29DC524A1EC997DB0075327F /* QXAudioCache.m */,
-				29DC524C1EC9C22A0075327F /* NSURL+QXURL.h */,
-				29DC524D1EC9C22A0075327F /* NSURL+QXURL.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		5FAA10D5C9A102144E8880C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +143,6 @@
 		6003F593195388D20070C39A /* Example for QXAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				29FAE2331EC5C051001E8827 /* Classes */,
 				6003F59C195388D20070C39A /* QXAppDelegate.h */,
 				6003F59D195388D20070C39A /* QXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -427,14 +394,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29DC52481EC997CB0075327F /* QXAudioPlayDownLoader.m in Sources */,
 				6003F59E195388D20070C39A /* QXAppDelegate.m in Sources */,
-				29DC524E1EC9C22A0075327F /* NSURL+QXURL.m in Sources */,
 				6003F5A7195388D20070C39A /* QXViewController.m in Sources */,
-				29FAE2361EC5C063001E8827 /* QXAudioPlayer.m in Sources */,
-				29DC52451EC9770F0075327F /* QXAudioPlayerLoadDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				29DC524B1EC997DB0075327F /* QXAudioCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
