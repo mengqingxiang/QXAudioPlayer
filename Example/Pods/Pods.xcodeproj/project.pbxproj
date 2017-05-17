@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D4092DBBA64FD5CC08C2F618BE2799B /* QXAudioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB56B7ECC83711A9B743E3EB660818F /* QXAudioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D6EC1B484FCAAE7CBE47A1DEC518652 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 660291253739147006AD00EFD049B6EA /* ReplaceMe.m */; };
+		22035E921F0089DB6BB39675745A1EDD /* QXAudioPlayerLoadDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4D4CBFEBE92502B1648957AE6C5F0 /* QXAudioPlayerLoadDelegate.m */; };
+		232904D4CCC77F19530F4CD6689DF474 /* NSURL+QXURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8DB7875618ED64BE202EC2A6FB891D /* NSURL+QXURL.m */; };
+		2CC69E3ED2F758E0048F0F4A3B8CBA1E /* QXAudioPlayDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 293CE0370ACC2D6D4117CCE8E8352381 /* QXAudioPlayDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E9F6EF19F91571EF35F4452C40F11DD /* QXAudioPlayerLoadDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AF892316C8737E3981D5836A3DBA7F /* QXAudioPlayerLoadDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F7317771A68A7B4D02E2591F6EA5F84 /* QXAudioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB56B7ECC83711A9B743E3EB660818F /* QXAudioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		564742FF61E3DBD2AD960853D33E4347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5773036084FC8540BB299C686E5DB833 /* Pods-QXAudioPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41558050A7CD802F0DDC7622BA73122C /* Pods-QXAudioPlayer_Tests-dummy.m */; };
-		5876154594D17242942F8BE0F0A99ABA /* QXAudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4625FDE5F6B240E42509C45A0FD4AB /* QXAudioPlayer-dummy.m */; };
+		673BC0FF9A25D743DEE981A8E1862EED /* QXAudioCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CF354B9FC7DB93260478970DBD28FF37 /* QXAudioCache.m */; };
+		730C7AB7DB15F538AD0354B6D52E8AB4 /* NSURL+QXURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE2212B2C4EA913968A2EA58275D6E9 /* NSURL+QXURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966EBCB296EFB76460140B78DAF067EA /* QXAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1386B9B0BB6329B8E51539EF1999CCFD /* QXAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C067D930E49BA360209354BC4B44A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9C4EE2642987E3D5B4B149189444865C /* QXAudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4625FDE5F6B240E42509C45A0FD4AB /* QXAudioPlayer-dummy.m */; };
+		AA6CC367931A0D7C01E3DD09B7A65776 /* QXAudioCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 179C1FC526280AD89B430426FDCC8960 /* QXAudioCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1F576DA70A11BEECBCFAAA5030591DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		B7277B17E8EE09A137889BA5DF585F91 /* Pods-QXAudioPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA31D19336FBD9F4FD185B33124888AB /* Pods-QXAudioPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C16DDC0CB85052896150079A9C585389 /* QXAudioPlayDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 139D952363FD3B3CCCFAADB541CBCFF3 /* QXAudioPlayDownLoader.m */; };
 		DF7B00EC2F6FAD7F1568A43CC5CF2FA0 /* Pods-QXAudioPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF5B870DC54D002A77BEA6A9F8D312D /* Pods-QXAudioPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F83DE84EC29984C9462745CA450AE55D /* QXAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6585A9C339E5849043B86E542FC4F001 /* QXAudioPlayer.m */; };
 		FFDB5BA9664051859C77FAD62EB924AF /* Pods-QXAudioPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F04CA632942636C536C8BE182207D93 /* Pods-QXAudioPlayer_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -32,19 +41,27 @@
 /* Begin PBXFileReference section */
 		05C86C5B58F46BEC0E6110D60A0EF02B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CF5B870DC54D002A77BEA6A9F8D312D /* Pods-QXAudioPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXAudioPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		1386B9B0BB6329B8E51539EF1999CCFD /* QXAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QXAudioPlayer.h; sourceTree = "<group>"; };
+		139D952363FD3B3CCCFAADB541CBCFF3 /* QXAudioPlayDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QXAudioPlayDownLoader.m; sourceTree = "<group>"; };
+		179C1FC526280AD89B430426FDCC8960 /* QXAudioCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QXAudioCache.h; sourceTree = "<group>"; };
+		17AF892316C8737E3981D5836A3DBA7F /* QXAudioPlayerLoadDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QXAudioPlayerLoadDelegate.h; sourceTree = "<group>"; };
 		17D074EEAB0EFD061A0569763175B369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8DB7875618ED64BE202EC2A6FB891D /* NSURL+QXURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QXURL.m"; sourceTree = "<group>"; };
 		1F576BC48B5CE10502A8EC42EDF32051 /* Pods-QXAudioPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXAudioPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		293CE0370ACC2D6D4117CCE8E8352381 /* QXAudioPlayDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QXAudioPlayDownLoader.h; sourceTree = "<group>"; };
 		41558050A7CD802F0DDC7622BA73122C /* Pods-QXAudioPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXAudioPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
 		42227465ED793474531C4CA4DDDA0BFE /* QXAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QXAudioPlayer.framework; path = QXAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		485FA81A940D368556EFDB7484E84C9F /* Pods_QXAudioPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QXAudioPlayer_Tests.framework; path = "Pods-QXAudioPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABA3234714BAEF2CA9C093C5E4883C9 /* Pods-QXAudioPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXAudioPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		538ABC24042CFC9869F6514CE93BFDA6 /* Pods-QXAudioPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXAudioPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5731EAE5A336ACB74BE0BAF2C8903FE3 /* Pods-QXAudioPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QXAudioPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		5BE2212B2C4EA913968A2EA58275D6E9 /* NSURL+QXURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+QXURL.h"; sourceTree = "<group>"; };
 		637299E209A7A98325F28EB85BCEECFF /* QXAudioPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXAudioPlayer.xcconfig; sourceTree = "<group>"; };
+		6585A9C339E5849043B86E542FC4F001 /* QXAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QXAudioPlayer.m; sourceTree = "<group>"; };
 		6598FD81AD5AEA13349539B8CB3526E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		660291253739147006AD00EFD049B6EA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		6671F580D80F9CB23C0238C8EC562E9E /* Pods-QXAudioPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXAudioPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6A5477C45B38B14FF603D2597B267D33 /* Pods-QXAudioPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXAudioPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CD4D4CBFEBE92502B1648957AE6C5F0 /* QXAudioPlayerLoadDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QXAudioPlayerLoadDelegate.m; sourceTree = "<group>"; };
 		6F04CA632942636C536C8BE182207D93 /* Pods-QXAudioPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXAudioPlayer_Example-dummy.m"; sourceTree = "<group>"; };
 		7C02A4EC7B956144EF853C63507AC43C /* Pods-QXAudioPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXAudioPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7C312AB5CACBDED42650708A95F04CBA /* Pods-QXAudioPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QXAudioPlayer_Tests.modulemap"; sourceTree = "<group>"; };
@@ -60,6 +77,7 @@
 		CA31D19336FBD9F4FD185B33124888AB /* Pods-QXAudioPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXAudioPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD672986C844B2FF21B8E3067A12B789 /* Pods-QXAudioPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXAudioPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CF354B9FC7DB93260478970DBD28FF37 /* QXAudioCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QXAudioCache.m; sourceTree = "<group>"; };
 		FB31ED57B8489242261CF77C5CFC1C51 /* Pods-QXAudioPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXAudioPlayer_Example-resources.sh"; sourceTree = "<group>"; };
 		FDB56B7ECC83711A9B743E3EB660818F /* QXAudioPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXAudioPlayer-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,15 +128,6 @@
 			path = "Target Support Files/Pods-QXAudioPlayer_Tests";
 			sourceTree = "<group>";
 		};
-		0FD2D184D2E08397EBEC8EFF0FA3298B /* QXAudioPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				A1DF773C9710CF6E898348B013CC6CA1 /* Classes */,
-			);
-			name = QXAudioPlayer;
-			path = QXAudioPlayer;
-			sourceTree = "<group>";
-		};
 		31BE4B95F74834443B1035A74FB2F576 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,11 +145,29 @@
 		3C0DDC9B62E50A78AA0B0388BEAB584E /* QXAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				0FD2D184D2E08397EBEC8EFF0FA3298B /* QXAudioPlayer */,
+				B2664D0AE3706AF33C44E0286FBB0955 /* QXAudioPlayer */,
 				31BE4B95F74834443B1035A74FB2F576 /* Support Files */,
 			);
 			name = QXAudioPlayer;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C14C91927C46797F92567E78F389EDD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BE2212B2C4EA913968A2EA58275D6E9 /* NSURL+QXURL.h */,
+				1D8DB7875618ED64BE202EC2A6FB891D /* NSURL+QXURL.m */,
+				179C1FC526280AD89B430426FDCC8960 /* QXAudioCache.h */,
+				CF354B9FC7DB93260478970DBD28FF37 /* QXAudioCache.m */,
+				293CE0370ACC2D6D4117CCE8E8352381 /* QXAudioPlayDownLoader.h */,
+				139D952363FD3B3CCCFAADB541CBCFF3 /* QXAudioPlayDownLoader.m */,
+				1386B9B0BB6329B8E51539EF1999CCFD /* QXAudioPlayer.h */,
+				6585A9C339E5849043B86E542FC4F001 /* QXAudioPlayer.m */,
+				17AF892316C8737E3981D5836A3DBA7F /* QXAudioPlayerLoadDelegate.h */,
+				6CD4D4CBFEBE92502B1648957AE6C5F0 /* QXAudioPlayerLoadDelegate.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		5DEFA4DBA34486AD7B3E8C87E65D74A4 /* Products */ = {
@@ -180,15 +207,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A1DF773C9710CF6E898348B013CC6CA1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				660291253739147006AD00EFD049B6EA /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		AA63F6A1EC8DF75F2E6EC389BC8BBC2D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +214,15 @@
 				046CCFAA9FECA68515B7113407C5DF02 /* Pods-QXAudioPlayer_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2664D0AE3706AF33C44E0286FBB0955 /* QXAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3C14C91927C46797F92567E78F389EDD /* Classes */,
+			);
+			name = QXAudioPlayer;
+			path = QXAudioPlayer;
 			sourceTree = "<group>";
 		};
 		B508F57EAE833B156E7482B71766E3D1 /* Pods-QXAudioPlayer_Example */ = {
@@ -235,11 +262,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7D3EE184BA672154606A0AB4A9CA254 /* Headers */ = {
+		964771DA13177F593CA6C10A07D0D9A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D4092DBBA64FD5CC08C2F618BE2799B /* QXAudioPlayer-umbrella.h in Headers */,
+				730C7AB7DB15F538AD0354B6D52E8AB4 /* NSURL+QXURL.h in Headers */,
+				AA6CC367931A0D7C01E3DD09B7A65776 /* QXAudioCache.h in Headers */,
+				2CC69E3ED2F758E0048F0F4A3B8CBA1E /* QXAudioPlayDownLoader.h in Headers */,
+				3F7317771A68A7B4D02E2591F6EA5F84 /* QXAudioPlayer-umbrella.h in Headers */,
+				966EBCB296EFB76460140B78DAF067EA /* QXAudioPlayer.h in Headers */,
+				3E9F6EF19F91571EF35F4452C40F11DD /* QXAudioPlayerLoadDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +325,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC09CC54F55EEC84844331E2C69B94F7 /* Build configuration list for PBXNativeTarget "QXAudioPlayer" */;
 			buildPhases = (
-				A9F8A952B15464EC02B6CC80C316612C /* Sources */,
+				14A5E02E632ACD2075FEB7A78C1E7C6C /* Sources */,
 				1A2034210F7D7F901863F8272332F5F8 /* Frameworks */,
-				C7D3EE184BA672154606A0AB4A9CA254 /* Headers */,
+				964771DA13177F593CA6C10A07D0D9A8 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -335,20 +367,24 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		14A5E02E632ACD2075FEB7A78C1E7C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232904D4CCC77F19530F4CD6689DF474 /* NSURL+QXURL.m in Sources */,
+				673BC0FF9A25D743DEE981A8E1862EED /* QXAudioCache.m in Sources */,
+				C16DDC0CB85052896150079A9C585389 /* QXAudioPlayDownLoader.m in Sources */,
+				9C4EE2642987E3D5B4B149189444865C /* QXAudioPlayer-dummy.m in Sources */,
+				F83DE84EC29984C9462745CA450AE55D /* QXAudioPlayer.m in Sources */,
+				22035E921F0089DB6BB39675745A1EDD /* QXAudioPlayerLoadDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26682EAD444CFF90527089DF04CF7FDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5773036084FC8540BB299C686E5DB833 /* Pods-QXAudioPlayer_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F8A952B15464EC02B6CC80C316612C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5876154594D17242942F8BE0F0A99ABA /* QXAudioPlayer-dummy.m in Sources */,
-				4D6EC1B484FCAAE7CBE47A1DEC518652 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
