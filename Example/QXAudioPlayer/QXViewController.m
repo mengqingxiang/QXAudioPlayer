@@ -45,7 +45,7 @@
 
 - (IBAction)play:(id)sender {
     //http://audio.xmcdn.com/group23/M04/63/C5/wKgJNFg2qdLCziiYAGQxcTOSBEw402.m4a
-    [[QXAudioPlayer shareInstance] playWithUrl:@"http://120.25.226.186:32812/resources/videos/minion_01.mp4"];
+    [[QXAudioPlayer shareInstance] playWithUrl:@"http://audio.xmcdn.com/group23/M04/63/C5/wKgJNFg2qdLCziiYAGQxcTOSBEw402.m4a"];
 
 }
 

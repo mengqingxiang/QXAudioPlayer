@@ -52,7 +52,7 @@
     
     //能到这里的请求说明都是可以匹配到我当前请求数据的区间
     [self dealWihtRequest];
-    return YES;
+    return NO;
 }
 
 

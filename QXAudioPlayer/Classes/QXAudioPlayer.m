@@ -41,7 +41,6 @@ static QXAudioPlayer *_shareInstance;
         return;
     }
     
-    
     self.playUrl =url;
     
     //1.资源的请求
